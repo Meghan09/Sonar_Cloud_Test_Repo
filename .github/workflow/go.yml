@@ -1,9 +1,7 @@
 name: go.yml
 on:
-  push:
-    branches: [ "go" ]
   pull_request:
-    branches: [ "go" ]
+    branches:"*"
 
 jobs: 
   sonarcloud:
